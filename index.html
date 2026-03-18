@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardinal Drive In | Your Hometown Restaurant | Ripley, MS</title>
+    <meta name="description" content="Cardinal Drive In — Ripley, Mississippi's favorite hometown restaurant since day one. 100% pure beef burgers, hand-spun shakes, crispy onion rings, and more — all cooked to order. 1807 City Ave N, Ripley, MS 38663.">
+    <meta name="keywords" content="Cardinal Drive In, Ripley MS restaurant, drive-in food, burgers Ripley, shakes, hometown restaurant Mississippi">
+    <meta property="og:title" content="Cardinal Drive In | Your Hometown Restaurant">
+    <meta property="og:description" content="100% pure beef burgers, hand-spun shakes, and classic drive-in favorites — all cooked to order in Ripley, MS.">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:type" content="restaurant">
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Cardinal Drive In",
+        "image": "images/logo.png",
+        "url": "https://cardinalripley.pages.dev",
+        "telephone": "(662) 576-0048",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1807 City Ave. North",
+            "addressLocality": "Ripley",
+            "addressRegion": "MS",
+            "postalCode": "38663",
+            "addressCountry": "US"
+        },
+        "servesCuisine": ["American", "Burgers", "Drive-In"],
+        "priceRange": "$$",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "11:00",
+                "closes": "20:00"
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="images/logo.png" alt="Cardinal Drive In Logo" class="nav-logo-img">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#specials">Favorites</a></li>
+                <li><a href="#location">Visit Us</a></li>
+                <li><a href="tel:6625760048" class="nav-cta">Call to Order</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="hero-logo-bg">
+                <img src="images/logo.png" alt="" class="hero-bg-logo" aria-hidden="true">
+            </div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <img src="images/logo.png" alt="Cardinal Drive In — Your Hometown Restaurant" class="hero-logo">
+            <p class="hero-tagline">Cooked to Order &bull; Every Single Time</p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary">View Our Menu</a>
+                <a href="tel:6625760048" class="btn btn-secondary">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    (662) 576-0048
+                </a>
+            </div>
+            <p class="hero-hours">Open Tue–Sat &bull; 11 AM – 8 PM</p>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about reveal">
+        <div class="container">
+            <div class="section-badge">EST. IN RIPLEY, MS</div>
+            <h2 class="section-title">Your Hometown Restaurant</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">At Cardinal Drive In, every meal is made fresh — <strong>cooked to order</strong>, the way it should be. We use 100% pure beef, hand-batter our onion rings, and spin our shakes with real fruit and candy.</p>
+                    <p>Since opening our doors on City Avenue in Ripley, we've been proud to serve the Tippah County community with classic American drive-in food at honest prices. Whether you're craving a juicy Cardinal Choice burger, a crispy catfish dinner, or a thick Oreo shake, we've got you covered.</p>
+                    <div class="about-highlight">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <span><strong>Call ahead</strong> to have your order ready when you pull up!</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Pure Beef</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">Fresh</span>
+                        <span class="stat-label">Cooked to Order</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">Local</span>
+                        <span class="stat-label">Ripley, MS</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Days a Week</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MENU ===== -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-badge reveal">OUR MENU</div>
+            <h2 class="section-title reveal">What's Cookin'</h2>
+            <p class="section-subtitle reveal">All items cooked fresh to order. Combos include regular fries or tater tots &amp; a medium drink.</p>
+
+            <!-- Menu Category Tabs -->
+            <div class="menu-tabs reveal" id="menuTabs">
+                <button class="menu-tab active" data-category="burgers">Burgers</button>
+                <button class="menu-tab" data-category="sandwiches">Sandwiches</button>
+                <button class="menu-tab" data-category="hotdogs">Hot Dogs</button>
+                <button class="menu-tab" data-category="hoagies">Hoagies</button>
+                <button class="menu-tab" data-category="dinners">Dinners</button>
+                <button class="menu-tab" data-category="sides">Sides</button>
+                <button class="menu-tab" data-category="salads">Salads</button>
+                <button class="menu-tab" data-category="drinks">Drinks</button>
+                <button class="menu-tab" data-category="shakes">Shakes</button>
+                <button class="menu-tab" data-category="desserts">Desserts</button>
+                <button class="menu-tab" data-category="combos">Combos</button>
+                <button class="menu-tab" data-category="kids">Kids</button>
+            </div>
+
+            <!-- Menu Grid -->
+            <div class="menu-grid" id="menuGrid">
+
+                <!-- === BURGERS === -->
+                <div class="menu-category" data-category="burgers">
+                    <div class="menu-category-header">
+                        <h3>Burgers</h3>
+                        <span class="menu-category-badge">100% Pure Beef</span>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>#1 Burger</h4><p>Mayo, lettuce &amp; tomato</p></div>
+                        <div class="menu-item"><h4>#2 Old Fashion</h4><p>Mustard, pickle, onion, lettuce &amp; tomato</p></div>
+                        <div class="menu-item"><h4>#3 Cardinal Choice</h4><p>Mayo, ketchup, pickle, onion, lettuce &amp; tomato</p></div>
+                        <div class="menu-item"><h4>#4 Burger</h4><p>Mustard, ketchup &amp; pickle</p></div>
+                        <div class="menu-item"><h4>#5 Bacon Burger</h4><p>Mayo, lettuce &amp; tomato</p></div>
+                        <div class="menu-item"><h4>#6 Mushroom &amp; Swiss</h4><p>Mushrooms &amp; melted Swiss cheese</p></div>
+                        <div class="menu-item"><h4>Jr. Burger (Dressed #1-4)</h4><p>Smaller portion, big taste</p></div>
+                        <div class="menu-item"><h4>Jr. Burger (Dressed #5-6)</h4><p>Smaller portion, big taste</p></div>
+                        <div class="menu-item"><h4>Chicken Strips</h4><p>Crispy chicken strips</p></div>
+                    </div>
+                </div>
+
+                <!-- === SANDWICHES === -->
+                <div class="menu-category" data-category="sandwiches" style="display:none">
+                    <div class="menu-category-header"><h3>Sandwiches</h3></div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Jumbo BBQ</h4><p>Sauce &amp; slaw</p></div>
+                        <div class="menu-item"><h4>Catfish</h4><p>Lettuce &amp; tartar sauce</p></div>
+                        <div class="menu-item"><h4>Jumbo Ham &amp; Cheese</h4><p>Mayo, lettuce &amp; tomato</p></div>
+                        <div class="menu-item"><h4>Grilled Chicken</h4><p>Boneless breast w/ mayo, lettuce &amp; tomato</p></div>
+                        <div class="menu-item"><h4>BLT</h4><p>Bacon, lettuce &amp; tomato</p></div>
+                        <div class="menu-item"><h4>Grilled Cheese</h4><p>Classic melted cheese</p></div>
+                        <div class="menu-item"><h4>Fried Chicken</h4><p>Hand-breaded &amp; crispy</p></div>
+                        <div class="menu-item"><h4>Jumbo Steak</h4><p>Hearty steak sandwich</p></div>
+                        <div class="menu-item"><h4>Spicy Chicken</h4><p>Crispy &amp; spicy</p></div>
+                    </div>
+                </div>
+
+                <!-- === HOT DOGS === -->
+                <div class="menu-category" data-category="hotdogs" style="display:none">
+                    <div class="menu-category-header"><h3>Chili Dogs &amp; Hot Dogs</h3></div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Ex-Long Hot Dog</h4><p>Ketchup &amp; mustard</p></div>
+                        <div class="menu-item"><h4>Ex-Long Chili Cheese Dog</h4><p>Loaded with chili &amp; cheese</p></div>
+                        <div class="menu-item"><h4>Ex-Long Slaw Dog</h4><p>Topped with slaw</p></div>
+                        <div class="menu-item"><h4>Ex-Long Spicy Slaw Dog</h4><p>Slaw with a kick</p></div>
+                        <div class="menu-item"><h4>Frito Chili Pie</h4><p>Fritos topped with chili &amp; cheese</p></div>
+                        <div class="menu-item"><h4>Corn Dog</h4><p>Classic carnival style</p></div>
+                    </div>
+                </div>
+
+                <!-- === HOAGIES === -->
+                <div class="menu-category" data-category="hoagies" style="display:none">
+                    <div class="menu-category-header">
+                        <h3>Hoagies</h3>
+                        <span class="menu-category-badge">Combos w/ fries/tots &amp; drink</span>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Philly Chicken Cheese</h4><p>Mayo, grilled onion &amp; peppers</p></div>
+                        <div class="menu-item"><h4>Philly Cheese Steak</h4><p>Mayo, grilled onion &amp; peppers</p></div>
+                        <div class="menu-item"><h4>Ham &amp; Cheese</h4><p>Ranch dressing, lettuce &amp; tomato</p></div>
+                        <div class="menu-item"><h4>Catfish</h4><p>Tartar sauce</p></div>
+                    </div>
+                </div>
+
+                <!-- === DINNERS === -->
+                <div class="menu-category" data-category="dinners" style="display:none">
+                    <div class="menu-category-header">
+                        <h3>Dinners</h3>
+                        <span class="menu-category-badge">Served w/ fries, coleslaw &amp; Texas toast</span>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>BBQ Pork Dinner</h4><p>Slow-cooked BBQ pork</p></div>
+                        <div class="menu-item"><h4>Chicken Breast Strips Dinner</h4><p>Crispy golden strips</p></div>
+                        <div class="menu-item"><h4>Catfish Dinner</h4><p>Southern-fried catfish</p></div>
+                    </div>
+                </div>
+
+                <!-- === SIDES === -->
+                <div class="menu-category" data-category="sides" style="display:none">
+                    <div class="menu-category-header"><h3>Sides</h3></div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Onion Rings</h4><p>Hand-battered &amp; crispy</p></div>
+                        <div class="menu-item"><h4>French Fries</h4><p>Golden &amp; crispy</p></div>
+                        <div class="menu-item"><h4>Spicy Fries</h4><p>Seasoned with a kick</p></div>
+                        <div class="menu-item"><h4>Tater Tots</h4><p>Crispy potato bites</p></div>
+                        <div class="menu-item"><h4>Pickelo's</h4><p>Fried pickle chips</p></div>
+                        <div class="menu-item"><h4>Fried Mushrooms</h4><p>Breaded &amp; golden</p></div>
+                        <div class="menu-item"><h4>Breaded Cheese Sticks w/ Sauce</h4><p>4 pc</p></div>
+                        <div class="menu-item"><h4>Nachos</h4><p>Chips, cheese &amp; toppings</p></div>
+                        <div class="menu-item"><h4>BBQ Nachos</h4><p>Loaded BBQ style</p></div>
+                    </div>
+                </div>
+
+                <!-- === SALADS === -->
+                <div class="menu-category" data-category="salads" style="display:none">
+                    <div class="menu-category-header"><h3>Salads</h3></div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Grilled Chicken Salad</h4><p>Fresh &amp; healthy</p></div>
+                        <div class="menu-item"><h4>Fried Chicken Strip Salad</h4><p>Crispy chicken on greens</p></div>
+                        <div class="menu-item"><h4>Chef Salad</h4><p>Ham &amp; bacon</p></div>
+                        <div class="menu-item"><h4>Garden Salad</h4><p>Fresh garden vegetables</p></div>
+                        <div class="menu-item"><h4>Taco Salad</h4><p>Seasoned beef, cheese &amp; toppings</p></div>
+                    </div>
+                </div>
+
+                <!-- === DRINKS === -->
+                <div class="menu-category" data-category="drinks" style="display:none">
+                    <div class="menu-category-header"><h3>Drinks</h3></div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Soft Drinks</h4><p>Pepsi, Diet Pepsi, Mtn Dew, Sierra Mist, Dr. Pepper, Orange Crush, Iced Tea, Lemonade, Cherry Lemonade, Strawberry Lemonade</p></div>
+                        <div class="menu-item"><h4>Bottled Water</h4><p>Ice cold</p></div>
+                        <div class="menu-item"><h4>Limeades</h4><p>Strawberry or Cherry</p></div>
+                        <div class="menu-item"><h4>Floats</h4><p>Made with any soft drink</p></div>
+                    </div>
+                </div>
+
+                <!-- === SHAKES === -->
+                <div class="menu-category" data-category="shakes" style="display:none">
+                    <div class="menu-category-header"><h3>Shakes</h3></div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Shakes — Real Fruit</h4><p>Vanilla, Chocolate, Strawberry, Pineapple, Banana</p></div>
+                        <div class="menu-item"><h4>Shakes — Candy</h4><p>M&amp;M's, Butterfinger, Oreo, Butterscotch, Peanut Butter, Reese's Peanut Butter Cups</p></div>
+                        <div class="menu-item"><h4>Mix Two Flavors</h4><p>Combine any two shake flavors</p></div>
+                    </div>
+                </div>
+
+                <!-- === DESSERTS === -->
+                <div class="menu-category" data-category="desserts" style="display:none">
+                    <div class="menu-category-header"><h3>Desserts</h3></div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Hot Fudge Cake</h4><p>Rich &amp; decadent</p></div>
+                        <div class="menu-item"><h4>Sundaes</h4><p>Chocolate, Strawberry, Pineapple, Hot Fudge, Butterscotch, Caramel</p></div>
+                        <div class="menu-item"><h4>Vanilla Cone or Dish</h4><p>Classic vanilla</p></div>
+                        <div class="menu-item"><h4>Strawberry Shortcake</h4><p>Fresh &amp; sweet</p></div>
+                        <div class="menu-item"><h4>Banana Fudge Cake</h4><p>Banana &amp; chocolate</p></div>
+                        <div class="menu-item"><h4>Banana Fudge Sundae</h4><p>Banana &amp; hot fudge</p></div>
+                        <div class="menu-item"><h4>Banana Split</h4><p>The classic — with nuts</p></div>
+                    </div>
+                </div>
+
+                <!-- === COMBOS === -->
+                <div class="menu-category" data-category="combos" style="display:none">
+                    <div class="menu-category-header">
+                        <h3>Combos</h3>
+                        <span class="menu-category-badge">Includes fries/tots &amp; drink</span>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Super Burger #1-4</h4><p>Any classic burger, super size</p></div>
+                        <div class="menu-item"><h4>Extra Large Burger #1-4</h4><p>Any classic burger, XL size</p></div>
+                        <div class="menu-item"><h4>Super Burger #5-6</h4><p>Bacon or Mushroom Swiss, super</p></div>
+                        <div class="menu-item"><h4>Extra Large Burger #5-6</h4><p>Bacon or Mushroom Swiss, XL</p></div>
+                        <div class="menu-item"><h4>Jr. Burger Combo (#1-4)</h4><p>Dressed as #1-4</p></div>
+                        <div class="menu-item"><h4>Jr. Burger Combo (#5-6)</h4><p>Dressed as #5-6</p></div>
+                        <div class="menu-item"><h4>Jumbo Ham &amp; Cheese Combo</h4><p>Full combo</p></div>
+                        <div class="menu-item"><h4>Ex-Long Chili Cheese Dog Combo</h4><p>Full combo</p></div>
+                        <div class="menu-item"><h4>Jumbo Steak Sandwich Combo</h4><p>Full combo</p></div>
+                        <div class="menu-item"><h4>Fried Chicken Sandwich Combo</h4><p>Full combo</p></div>
+                        <div class="menu-item"><h4>Spicy Chicken Combo</h4><p>Full combo</p></div>
+                        <div class="menu-item"><h4>Cheese Sticks Combo</h4><p>4 pc with drink</p></div>
+                    </div>
+                    <div class="menu-special-box">
+                        <h4>🎉 Value Bag</h4>
+                        <p>2 Extra Large Burgers (#1-4) &bull; 2 Regular French Fries or 2 Regular Tater Tots &bull; 2 Medium Drinks</p>
+                    </div>
+                </div>
+
+                <!-- === KIDS === -->
+                <div class="menu-category" data-category="kids" style="display:none">
+                    <div class="menu-category-header">
+                        <h3>Kids Meal</h3>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item"><h4>Choose One</h4><p>Jr. Burger &bull; Hot Dog &bull; Corn Dog &bull; Grilled Cheese — Served with fries &amp; a soft drink</p></div>
+                        <div class="menu-item"><h4>Add-Ons Available</h4><p>Cheese &bull; Bacon &bull; Chili</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SPECIALS / FOOD SHOWCASE ===== -->
+    <section id="specials" class="specials">
+        <div class="container">
+            <div class="section-badge reveal">FAN FAVORITES</div>
+            <h2 class="section-title reveal">Made Fresh, Made Right</h2>
+            <div class="specials-grid reveal">
+                <div class="special-card">
+                    <div class="special-img-wrap">
+                        <img src="images/hero-burger.png" alt="Fresh-made burger at Cardinal Drive In" loading="lazy">
+                    </div>
+                    <div class="special-info">
+                        <h3>100% Pure Beef Burgers</h3>
+                        <p>Six unique burger styles — from the classic #1 to our signature Cardinal Choice. Every patty made fresh on the grill.</p>
+                    </div>
+                </div>
+                <div class="special-card">
+                    <div class="special-img-wrap">
+                        <img src="images/milkshake.png" alt="Hand-spun milkshake at Cardinal Drive In" loading="lazy">
+                    </div>
+                    <div class="special-info">
+                        <h3>Hand-Spun Shakes</h3>
+                        <p>Real fruit or candy mix-ins — Vanilla, Chocolate, Strawberry, Oreo, Reese's, and more. Mix two flavors!</p>
+                    </div>
+                </div>
+                <div class="special-card">
+                    <div class="special-img-wrap">
+                        <img src="images/sides-fries.png" alt="Crispy onion rings and fries at Cardinal Drive In" loading="lazy">
+                    </div>
+                    <div class="special-info">
+                        <h3>Crispy Sides</h3>
+                        <p>Hand-battered onion rings, golden fries, spicy fries, tater tots, fried mushrooms, and homemade pickelo's.</p>
+                    </div>
+                </div>
+                <div class="special-card">
+                    <div class="special-img-wrap">
+                        <img src="images/dessert-sundae.png" alt="Hot fudge sundae at Cardinal Drive In" loading="lazy">
+                    </div>
+                    <div class="special-info">
+                        <h3>Sweet Treats</h3>
+                        <p>Hot Fudge Cake, Banana Splits, Strawberry Shortcake, sundaes in every flavor — the perfect finish to your meal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LOCATION & HOURS ===== -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-badge reveal">FIND US</div>
+            <h2 class="section-title reveal">Visit Cardinal Drive In</h2>
+            <div class="location-grid reveal">
+                <div class="location-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div class="info-text">
+                            <h3>Address</h3>
+                            <p>1807 City Ave. North<br>Ripley, MS 38663</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div class="info-text">
+                            <h3>Phone</h3>
+                            <p><a href="tel:6625760048">(662) 576-0048</a></p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <div class="info-text">
+                            <h3>Hours</h3>
+                            <div class="hours-grid">
+                                <span class="day">Monday</span><span class="time closed">Closed</span>
+                                <span class="day">Tuesday</span><span class="time">11 AM – 8 PM</span>
+                                <span class="day">Wednesday</span><span class="time">11 AM – 8 PM</span>
+                                <span class="day">Thursday</span><span class="time">11 AM – 8 PM</span>
+                                <span class="day">Friday</span><span class="time">11 AM – 8 PM</span>
+                                <span class="day">Saturday</span><span class="time">11 AM – 8 PM</span>
+                                <span class="day">Sunday</span><span class="time closed">Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="tel:6625760048" class="btn btn-primary btn-full">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        Call Ahead &amp; Order
+                    </a>
+                </div>
+                <div class="location-map">
+                    <iframe 
+                        src="https://www.google.com/maps?q=Cardinal+Drive+In+1807+City+Ave+N+Ripley+MS+38663&output=embed"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0; border-radius: 16px;" 
+                        allowfullscreen 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Cardinal Drive In Location on Google Maps">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="Cardinal Drive In" class="footer-logo">
+                    <p>Your Hometown Restaurant<br>Ripley, Mississippi</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#specials">Favorites</a></li>
+                        <li><a href="#location">Visit Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>1807 City Ave. North<br>Ripley, MS 38663</p>
+                    <p><a href="tel:6625760048">(662) 576-0048</a></p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=100057599983498" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cardinal Drive In. All rights reserved.</p>
+                <p class="footer-tagline">Everything is cooked to order. Call ahead to have your order ready when you pull up.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
